@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agar.io Mini Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hud">
+        <h1>Agar.io Mini Clone</h1>
+        <p>Move your mouse to steer. Eat smaller pellets and cells to grow.</p>
+        <p><strong>Controls:</strong> Mouse = move, <kbd>R</kbd> = restart after death.</p>
+        <p><strong>Mass:</strong> <span id="mass">10</span></p>
+        <p><strong>Status:</strong> <span id="status">Alive</span></p>
+      </section>
+      <canvas id="game" width="1000" height="700" aria-label="Agar game board"></canvas>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
